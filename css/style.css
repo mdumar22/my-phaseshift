@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.read-more a {
+    background-color: #D84780;
+    color: #fff;
+    padding: 18px 30px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.read-more a:hover {
+    background-color: #fff;
+    color: #D84780;
+    letter-spacing: 2px;
+    transition: all 0.6s;
+}
+
+
+/*globale end*/
+
+/* navSARTED */
+
+
+.top-nav {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.nav-bar-wrapper {
+    justify-content: end;
+}
+
+.top-nav .navbar-brand {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.top-nav .navbar-brand span {
+    color: #353638;
+}
+
+
+.top-nav .navbar-nav li a {
+    color: #353638;
+    text-transform: uppercase;
+    margin-right: 14px;
+}
+
+.top-nav .navbar-nav li .active {
+    color: #fff;
+}
+
+.top-nav .navbar-nav li a:hover {
+    color: #fff;
+}
+
+/* .top-nav  .reponsive-button{
+   
+    background-color: #fff;
+  
+} */
+
+/* .top-nav  .reponsive-button  span{
+    color: #fff;
+    font-size: 32px;
+} */
+
+.side-bar .navbar-toggler {
+    color: black;
+    font-size: 40px;
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+/* /* banner */
+/* -imgs-STARTED */
+
+.banner-img {
+    width: 100%;
+    background-image: url(../image/bg.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+
+.banner-content {
+    color: #fff;
+    text-align: center;
+    padding: 80px 0 50px 0;
+    font-weight: lighter;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.banner-content .read-more {
+    padding: 50px 0 40px 0;
+}
+
+
+/* card-sarted */
+
+.card-wrapper {
+    padding: 40px 0;
+}
+
+.card-wrapper .card {
+    margin-bottom: 25px;
+    border: none;
+}
+
+
+.box-card img {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.box-card .card-text  {
+    text-align: center;
+    color: #c8ccd5;
+    padding: 20px ;
+}
+
+.box-card .read-more{
+    text-align: center;
+    padding: 25px  0;
+}
+.card-wrapper-two{
+    padding: 40px  0;
+}
+
+/* <i class="fas fa-wrench"></i>
+<i class="fas fa-cogs"></i>
+<i class="fas fa-leaf"></i>
+<i class="fas fa-road"></i>
+
+*/
+
+
+.blog-wrapper{
+    margin: 40px 0;
+}
+
+
+
+ .font-awesom {
+    font-size: 32px;
+    color: #fff;
+}
+
+.blog .blog-content {
+    color: #fff;
+
+}
+
+.blog h2 {
+    text-transform: uppercase;
+}
+
+.blog .blog-content p {
+    padding: 40px 0;
+}
+.blog-content{
+    color: #fff;
+}
+
+
+
+
+.bord {
+    border-bottom: 1px solid #696B6E;
+}
+
+.font-awesom a{
+    color: #fff;
+}
+
+/* pink-started */
+
+.top-form{
+    background-color: #D84780;
+    text-align: center;
+    
+}
+
+.forms-content{
+color: #fff;
+text-transform: uppercase;
+padding: 30px 0;
+}
+
+.forms-wrapper{
+    padding: 30px 0;
+}
+
+.forms-wrapper .read-more{
+    padding: 30px 0  50px  0;
+}
+
+.forms-wrapper .read-more a{
+    border: 2px solid #fff;
+}
+
+
+.control{
+    color: #353638;
+    padding: 20px 25px;
+    border-radius: 7px;
+}
+/* pink-end */
+/* top-footer-started */
+
+.top-footer{
+    width: 100%;
+    background-color: #000;
+}
+
+.fotter-wrapper{
+    text-align: center;
+}
+
+.fotter-wrapper p{
+    text-transform: uppercase;
+    color: #353638;
+    padding: 40px 0;
+}
+
+.footer-awesom{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+
+}
+
+.footer-awesom li{
+    list-style: none;
+    margin-left: 32px;
+}
+
+.footer-awesom li a{
+    color: #353638;
+    font-size: 32px;
+
+}
+
+
+/*responsib*/
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    .card-three{
+            margin-top: 22px;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:767px){
+  
+    .card-two{
+        margin: 22px 0;
+    }
+}
+
+
+ 
