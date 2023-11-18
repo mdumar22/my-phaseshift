@@ -82,7 +82,6 @@ body {
 
 
 
-
 /* /* banner */
 /* -imgs-STARTED */
 
@@ -150,10 +149,12 @@ body {
 
 
 .blog-wrapper{
-    margin: 40px 0;
+    padding: 70px  0;
 }
 
-
+.bolog{
+    padding-bottom: 50px ;
+}
 
  .font-awesom {
     font-size: 32px;
@@ -176,7 +177,16 @@ body {
     color: #fff;
 }
 
+@media only screen and (max-width:991px){
+    .bolog{
+        padding-bottom: 30px ;
+    }
 
+   .blog-three-wrapper{
+    
+    padding-bottom: 30px;
+   }
+}
 
 
 .bord {
